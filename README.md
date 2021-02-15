@@ -6,3 +6,4 @@ Input json is also placed under /test/resources
 There are two utilities classes placed under src/main/utilities, these are RestAPIHelper which contains methods to do a POST call. And the other class is ExcelUtilities which is used to read the TestData excel sheet.
 The project is a Maven Project and the pom.xml contains all dependencies.
 The project also has TestNG framework for writing tests, RestAssured Java framework for performing REST calls and also uses Apache POI for reading test data from excel sheet.
+To change the test data, the TestData excel sheet and also InputJson has to be changed accordingly.
